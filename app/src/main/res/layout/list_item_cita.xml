@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/darker_gray"
+    android:layout_marginBottom="5dp">
+
+    <TextView android:id="@+id/txtNotario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notari: " android:textStyle="bold"/>
+
+    <TextView android:id="@+id/txtSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sala: "/>
+
+    <TextView android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data: "/>
+
+    <TextView android:id="@+id/txtHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora: "/>
+
+    <TextView android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripció: "/>
+</LinearLayout>

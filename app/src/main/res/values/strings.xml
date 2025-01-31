@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">test</string>
+    <string-array name="opciones_salas">
+        <item>Sala 1</item>
+        <item>Sala 2</item>
+        <item>Sala 3</item>
+    </string-array>
+
+    <string-array name="opciones_horas">
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+    </string-array>
+</resources>

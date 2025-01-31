@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNotario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notario"
+        android:inputType="text"/>
+
+    <Spinner
+        android:id="@+id/spinnerSalas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Selecciona una data"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnAddCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Cita" />
+
+</LinearLayout>
